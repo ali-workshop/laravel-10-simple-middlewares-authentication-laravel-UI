@@ -1,0 +1,36 @@
+targets:
+1-repo for laravel with laravel ui .like the lecture.using laravel 10. DONE 
+2-repo for laravel wihtout laravel ui.and wiht breeze.using laravel 11 DONE 
+3-repo for laravel wiht larvel ui for multi authen, using laravel 10
+4-repo for laravel wiht larvel ui for multi authen, using laravel 11 last
+
+
+
+https://laravel.com/docs/11.x/middleware#assigning-middleware-to-routes
+https://laravel.com/docs/11.x/starter-kits#laravel-breeze
+https://github.com/laravel/ui
+https://medium.com/@online-web-tutor/laravel-10-authentication-with-laravel-ui-tutorial-ce163cce0af7
+https://www.webtrickshome.com/forum/how-to-add-custom-authentication-middleware-in-laravel
+https://auth0.com/blog/creating-your-first-laravel-app-and-adding-authentication/
+https://www.youtube.com/watch?v=f1hCx-NXbek
+
+
+
+
+Generate Middleware
+Implement Middleware Logic
+Register Middleware
+Use Middleware in Routes
+Create a Controller
+Implement Controller Methods
+Define Route
+Apply Middleware to the Controller
+Applying Middleware in the Controller's Constructor
+Applying Middleware Directly in the Route
+Applying Middleware in the Controller's Constructor
+this approach is useful when you want all (or most) methods of a controller to use the same set of middleware.
+
+Global Middleware:
+In Laravel, global middleware are executed for every HTTP request to your application, regardless of the route or controller handling the request. These are defined in the app/Http/Kernel.php file under the $middleware property.
+
+Route Middleware:
